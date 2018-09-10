@@ -1,0 +1,2 @@
+# FinanceApp
+Church Finance App
