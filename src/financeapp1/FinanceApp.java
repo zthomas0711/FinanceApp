@@ -4,21 +4,25 @@
  * and open the template in the editor.
  */
 package financeapp1;
+
+import java.applet.Applet;
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 /**
  *
  * @author Zachary
  */
-public class FinanceApp1{
+public class FinanceApp extends Applet {
+
     /**
-     * @param args the command line arguments
+     * Initialization method that will be called after the applet is loaded into
+     * the browser.
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public void init() {
+        // TODO start asynchronous download of heavy resources
         JFrame j = new financeAppLogin();
         j.setVisible(true);
-        
     }
-    
+
+    // TODO overwrite start(), stop() and destroy() methods
 }

@@ -6,12 +6,13 @@
 package financeapp1;
 
 import javax.swing.JFrame;
+import java.applet.Applet;
 
 /**
  *
  * @author Zachary
  */
-public class financeAppLogin extends javax.swing.JFrame {
+public class financeAppLogin extends JFrame {
 
     /**
      * Creates new form financeAppLogin
