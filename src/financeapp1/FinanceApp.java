@@ -20,7 +20,8 @@ public class FinanceApp extends Applet {
      */
     public void init() {
         // TODO start asynchronous download of heavy resources
-        JFrame j = new financeAppLogin();
+        
+        JFrame j = new FinanceAppLogin();
         j.setVisible(true);
     }
 
