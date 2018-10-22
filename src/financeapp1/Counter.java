@@ -9,6 +9,28 @@ package financeapp1;
  *
  * @author Zachary
  */
-public class Counter {
+public class Counter extends User{
+    Counter(String _name, String _email, int _entryId)
+    {
+        name = _name;
+        email = _email;
+        entryId = _entryId;
+    }
+    
+    @Override
+    public void SetRoles() {
+    canLogOfferings = true;
+    canViewLedgers = true;
+    canLogPurchases = false;
+    canPerformTransfers = false;
+    canReconcileAccounts = false;
+    canUploadDocuments = true;
+    canGenerateReports = false;
+    canGenerateContributions = false;
+    canUpdateVisitors = true;
+    canManageBudget = false;
+    canConfigureOptions = false;
+    canManageUsers = false;
+    }
     
 }

@@ -10,5 +10,27 @@ package financeapp1;
  * @author Zachary
  */
 public class Administrator extends User{
+     Administrator(String _name, String _email, int _entryId)
+    {
+        name = _name;
+        email = _email;
+        entryId = _entryId;
+    }
+    
+    @Override
+    public void SetRoles() {
+    canLogOfferings = true;
+    canViewLedgers = true;
+    canLogPurchases = true;
+    canPerformTransfers = true;
+    canReconcileAccounts = true;
+    canUploadDocuments = true;
+    canGenerateReports = true;
+    canGenerateContributions = true;
+    canUpdateVisitors = true;
+    canManageBudget = true;
+    canConfigureOptions = true;
+    canManageUsers = true;
+    }
     
 }
