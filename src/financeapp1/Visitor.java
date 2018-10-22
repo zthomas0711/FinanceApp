@@ -10,5 +10,9 @@ package financeapp1;
  * @author Zachary
  */
 public class Visitor {
-    
+    private String name;
+    private String address;
+    private String entryId;
+    private String phoneNumber;
+    private String email;
 }
